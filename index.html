@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes | Homepage</title>
+</head>
+<body>
+
+    <!-- Semantic Tag: Header -->
+    <header>
+        <h1>Prime Demetri Cook Book</h1>
+        <!-- Multimedia Requirement -->
+        <img src="food.jpg" alt="A delicious meal ready to be eaten" width="300">
+    </header>
+
+    <!-- Semantic Tag: Main -->
+    <main>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="recipe1.html">Adobong T-rex</a></li>
+                    <li><a href="recipe2.html">Pork Sisig</a></li>
+                    <li><a href="recipe3.html">Pinakbet</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- Table Requirement -->
+        <section>
+            <h2>Recipe Quick Facts</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Recipe Name</th>
+                        <th>Prep Time</th>
+                        <th>Difficulty</th>
+                        <th>Delicousness</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="recipe1.html">Adobong T-rex </a></td>
+                        <td>2 days</td>
+                        <td>Medium</td>
+                        <td>5 Star</td>
+                    </tr>
+                    <tr>
+                        <td><a href="recipe2.html">Pork Sisig</a></td>
+                        <td>20 mins</td>
+                        <td>Easy</td>
+                        <td>4.5 Stars</td>
+                    </tr>
+                    <tr>
+                        <td><a href="recipe3.html">Pinakbet</a></td>
+                        <td>10-20 mins</td>
+                        <td>Easy</td>
+                        <td>4.5 Stars</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Form Requirement -->
+        <details>
+            <summary>Leave Feedback</summary>
+            <form action="#" method="POST">
+                <!-- Accessibility: label tied to input with 'for' and 'id' -->
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="feedback">Your Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="30" required></textarea><br><br>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </details>
+    </main>
+
+    <!-- Semantic Tag: Footer -->
+    <footer>
+        <p>&copy; 2026 My Odin Recipes Project.</p>
+    </footer>
+
+</body>
+</html>
